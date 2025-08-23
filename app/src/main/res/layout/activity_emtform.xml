@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fa"
+    tools:context=".EMTForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+
+        <!-- Date & Time -->
+
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMT Task Sheet"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Common EditText Style -->
+        <!-- Light Blue: #eaf6ff (very light blue close to white) -->
+        <!-- Patient ID -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient ID:"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/patientIdInput"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="#eaf6ff" />
+
+            <Button
+                android:id="@+id/fetchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fetch"
+                android:textSize="12sp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+        <!-- Patient Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/patientNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="#eaf6ff" />
+
+        <!-- Mobile Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/mobileNumberInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:background="#eaf6ff" />
+
+        <!-- Gender -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/genderInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="#eaf6ff" />
+
+        <!-- Age -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="#eaf6ff" />
+
+        <!-- Chief Complaint -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chief Complaint:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/complaintInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="#eaf6ff" />
+
+        <!-- Informer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informer:"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/informerInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="#eaf6ff" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/incidentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Arrived at Incident Spot"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:background="#FF0000" />
+    </LinearLayout>
+</ScrollView>

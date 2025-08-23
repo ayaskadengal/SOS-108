@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- For accessing files in EMTForms under Documents -->
+    <external-path
+        name="pdfs"
+        path="Documents/EMTForms/" />
+
+    <external-files-path
+        name="my_images"
+        path="Pictures/" />
+</paths>

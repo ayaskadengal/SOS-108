@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚑 EMT - Patient Data Collection"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Patient ID -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient ID"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:id="@+id/editTextPatientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient ID"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Age -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Gender -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/radioOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+
+        <!-- Mobile -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chief Complaint Dropdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chief Complaint"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Link"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informer"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupInformer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient" />
+
+            <RadioButton
+                android:id="@+id/radioInformant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informant" />
+        </RadioGroup>
+        <!-- Onsite Care -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onsite Care"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_check_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check response" />
+
+        <CheckBox
+            android:id="@+id/checkbox_immobilization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Immobilization" />
+
+        <CheckBox
+            android:id="@+id/checkbox_transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proper transportation" />
+        <CheckBox
+            android:id="@+id/checkbox_abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC (Airway, Breathing and Circulation)" />
+
+        <CheckBox
+            android:id="@+id/checkbox_first_aid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Aid care" />
+
+        <CheckBox
+            android:id="@+id/checkbox_other_abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+        <!-- Enroute Care -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroute Care"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_airway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airway management (O2 mask)" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pain_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pain support (Medications)" />
+
+        <CheckBox
+            android:id="@+id/checkbox_rapid_transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rapid transport to definitive care" />
+        <CheckBox
+            android:id="@+id/checkbox_monitoring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitoring (Vital signs)" />
+
+        <CheckBox
+            android:id="@+id/checkbox_hydration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydration (IV fluids given)" />
+
+        <CheckBox
+            android:id="@+id/checkbox_other_monitoring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+        <!-- Drugs -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroute Care Drugs Given"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_adrenaline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adrenaline" />
+
+        <CheckBox
+            android:id="@+id/checkbox_atorvastatin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atorvastatin" />
+
+        <CheckBox
+            android:id="@+id/checkbox_clopidogrel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clopidogrel" />
+
+        <CheckBox
+            android:id="@+id/checkbox_tranexemic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tranexemic acid" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ivfluids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IV fluids(NS/DNS/RL)" />
+        <CheckBox
+            android:id="@+id/checkbox_aspirin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aspirin" />
+
+        <CheckBox
+            android:id="@+id/checkbox_atropine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atropine" />
+
+        <CheckBox
+            android:id="@+id/checkbox_diazepam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diazepam/Lorazepam" />
+
+        <CheckBox
+            android:id="@+id/checkbox_glucose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glucose/25% dextrose" />
+
+        <CheckBox
+            android:id="@+id/checkbox_labetolol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labetolol IV" />
+
+        <CheckBox
+            android:id="@+id/checkbox_oxygen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oxygen medical gas" />
+
+        <CheckBox
+            android:id="@+id/checkbox_salbutamol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salbutamol sulphate" />
+
+        <CheckBox
+            android:id="@+id/checkbox_hydrocortisone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydrocortisone" />
+
+        <CheckBox
+            android:id="@+id/checkbox_other_drugs_extra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+
+
+        <!-- Other Drugs -->
+        <EditText
+            android:id="@+id/editTextOtherDrugs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specify other enroute care drugs" />
+
+        <!-- Emergency Interventions Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Interventions"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ABC Section -->
+
+        <!-- Monitoring Section -->
+
+
+        <!-- Drugs Section -->
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <Button
+                android:id="@+id/btnGeneratePdf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Generate PDF"
+                android:visibility="invisible"
+                android:textAllCaps="false"
+                android:backgroundTint="#8BC34A"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp"
+            android:elevation="4dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"
+            android:padding="12dp"
+            android:elevation="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

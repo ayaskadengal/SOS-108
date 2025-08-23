@@ -1,0 +1,353 @@
+<resources>
+    <string name="app_name">SOS 108</string>
+
+
+    <string name="english_radio_bt">English</string>
+    <string name="tamil_radio_bt">Tamil</string>
+    <string name="next">Next</string>
+    <string name="welcome_screen_title">Welcome Video</string>
+    <string name="welcome_screen_txt">This app is designed to help you achieve \n the medication and life style goals set by \n your doctor. It could help you to lead \n a healthier life and prevent further \n damage to your heart. </string>
+    <string name="login_txt">LOG IN</string>
+    <string name="user_name_txt">Username</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don \'t have an account</string>
+    <string name="create_account">Create a new account</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="create_account_reg">CREATE ACCOUNT</string>
+    <string name="full_name">Full Name</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="alt_cont_num">Alternate Contact Number</string>
+    <string name="mobile_relative">Mobile Number of Relative</string>
+    <string name="email">Email</string>
+    <string name="occupation">Occupation</string>
+    <string name="high_edu">Highest Educational Qualification</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="already_ac">Already have an account?</string>
+    <string name="login_small">login</string>
+    <string name="user_email">email_id@sample.com</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="otp_verification">EMAIL VERIFICATION</string>
+    <string name="otp_txt">After verification, come back and press \nthe below button </string>
+    <string name="reset_otp">Resend Link?</string>
+    <string name="verify">Verify</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="otp_verification_text">Verifying your email ID! \n
+    We have sent a verification link to your email ID</string>
+
+
+    <string-array name="mark_label">
+        <item>Normal</item>
+        <item>STEMI</item>
+
+    </string-array>
+
+    <string-array name="gender_select">
+        <item>Ambulance_Driver</item>
+        <item>EMT</item>
+
+
+    </string-array>
+    <string-array name="health_care_sp">
+        <item>Doctor</item>
+        <item>Nurse</item>
+        <item>Technical Staff</item>
+        <item>Frontline health worker</item>
+    </string-array>
+    <string-array name="category_arr">
+        <item>Steps</item>
+        <item>Sleep</item>
+        <item>Vitals</item>
+        <item>Lab</item>
+        <item>Fruit</item>
+        <item>Smoking</item>
+        <item>Alcohol</item>
+    </string-array>
+
+    <string-array name="education_arr">
+        <item>Yes</item>
+        <item>No</item>
+
+
+    </string-array>
+
+    <string-array name="income_et">
+        <item>STEMI</item>
+        <item>NSTEMI</item>
+        <item>Abnormal Coronary Angiogram</item>
+        <item>CABG</item>
+        <item>PCI</item>
+        <item>None</item>
+
+    </string-array>
+    <string-array name="Diabetics">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string-array name="Hypertension">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+    <string-array name="Smoking">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="permission">PERMISSION</string>
+
+    <string name="permission_txt1">The information entered by you and \n collected automatically by the app will be \n visible only to the doctors in Department of \n Cardiology JIPMER. This information will not \n be shared or visible to any other person.</string>
+    <string name="permission_txt2">The app will automatically collect \n information about the number of steps you \n take and sleep duration based on the \n movement recorded by your smartphone. \n Do you agree?</string>
+    <string name="i_agree">I agree</string>
+    <string name="continue_txt">CONTINUE</string>
+
+    <string name="age">Age</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="Height">Height (in cm)</string>
+    <string name="Weight">Weight (in kg)</string>
+    <string name="bmi">BMI </string>
+    <string name="target_wt">Target weight </string>
+    <string name="Hypertension">Hypertension</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_smoke">Do you currently smoke?</string>
+    <string name="how_many_days_smoke">How many days a week do you smoke?</string>
+    <string name="no_of_days">No.of days</string>
+    <string name="no_of_cigarettes">No.of cigarettes/beedi per day</string>
+    <string name="do_you_use_alcohol">Do you use alcohol?</string>
+    <string name="how_many_days_alcohol">How many days a week do you \n drink alcohol?</string>
+    <string name="what_type_alcohol">What type of alcohol do you \n normally use?</string>
+    <string name="beer">Beer</string>
+    <string name="brandy_whisky">Brandy/Whisky/Rum/Vodka</string>
+    <string name="brandy_whisky2">Brandy/Whisky/\nRum/Vodka</string>
+    <string name="Wine">Wine</string>
+    <string name="others">Others</string>
+    <string name="ml_per_day">Number of ml per day</string>
+    <string name="specify_name">Specify the name</string>
+    <string name="health_info">HEALTH INFO</string>
+    <string name="diabetes">Diabetes</string>
+
+
+    <string-array name="no_of_days_arr">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+
+
+    </string-array>
+
+
+    <string name="ihd_past">IHD Past ACS</string>
+    <string name="ihd_stable">IHD Stable Angina</string>
+    <string name="bronchial">Bronchial Asthma</string>
+    <string name="heart_failure">Heart Failure</string>
+    <string name="form">Form</string>
+    <string name="medicine">Medicine Name</string>
+    <string name="dose">Dose, Unit</string>
+    <string name="submit">SUBMIT</string>
+    <string name="frequency">Frequency</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="before_after_fd">Before/After food</string>
+    <string name="add_next">ADD NEXT</string>
+    <string name="view_list">VIEW LIST</string>
+    <string name="details_updated">Details Updated</string>
+
+
+    <string-array name="form_arr">
+
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Injection</item>
+
+
+    </string-array>
+
+
+    <string-array name="freq_arr">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+
+    </string-array>
+
+    <string-array name="food_arr">
+
+        <item>Before Food</item>
+        <item>After Food</item>
+
+
+    </string-array>
+
+    <string-array name="reminder_arr">
+
+        <item>08:00 am</item>
+        <item>09:00 am</item>
+        <item>01:00 pm</item>
+        <item>07:00 pm</item>
+        <item>08:00 pm</item>
+        <item>08:30 pm</item>
+
+
+    </string-array>
+
+
+    <string name="personal_details">Personal Details</string>
+    <string name="edit_personal_details">Edit Personal Details</string>
+    <string name="health_details">Health Details</string>
+    <string name="my_vitals">My Vitals</string>
+    <string name="my_lab">My Lab</string>
+    <string name="my_medicine_list">My Medicine List</string>
+    <string name="logout">Logout</string>
+    <string name="hospital_number">Hospital Number</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="profile_info">PROFILE INFO</string>
+    <string name="back">back</string>
+    <string name="update">update</string>
+    <string name="cancel">cancel</string>
+    <string name="medicine_info">MEDICINE INFO</string>
+    <string name="edit_health_info">EDIT HEALTH INFO</string>
+
+    <string name="add_vitals">ADD MY VITALS</string>
+    <string name="pulse">Pulse</string>
+    <string name="sbp">SBP</string>
+    <string name="dbp">DBP</string>
+    <string name="add_my_lab">ADD MY LAB</string>
+    <string name="total_cholesterol">Total Cholesterol</string>
+    <string name="total_cholesterol2">Total \nCholesterol</string>
+    <string name="ldl">LDL</string>
+    <string name="hdl">HDL</string>
+    <string name="fbs">FBS</string>
+    <string name="ppbs">PPBS</string>
+    <string name="hba1c">HBA1C</string>
+    <string name="edit_delete_medicine">edit/delete medicine</string>
+    <string name="edit_medicine">edit medicine</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="delete_medicine">delete medicine</string>
+    <string name="deleted_successfully">Deleted Successfully</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="new_password">New Password</string>
+    <string name="password_updated">Password Updated</string>
+    <string name="add_fruits_details">ADD FRUITS/ \nVEGETABLES DETAILS</string>
+    <string name="no_of_servings">No. of servings per day</string>
+    <string name="no_of_servings2">No. of servings \nper day</string>
+    <string name="edit_or_delete_fruits_details">EDIT/DELETE \nFRUITS/VEGETABLES \nDETAILS</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="edit_fruits_details">EDIT FRUITS/ \nVEGETABLES DETAILS</string>
+    <string name="delete_fruits_details">DELETE  \n FRUITS/VEGETABLES \n DETAILS</string>
+    <string name="add_smoking_details">ADD SMOKING DETAILS</string>
+    <string name="edit_or_delete_smoking_details">EDIT/DELETE \n SMOKING DETAILS</string>
+    <string name="edit_smoking_details">EDIT SMOKING DETAILS</string>
+    <string name="delete_smoking_details">DELETE \n SMOKING DETAILS</string>
+    <string name="add_alcohol_details">ADD ALCOHOL DETAILS</string>
+    <string name="edit_or_delete_alcohol_details">EDIT/DELETE \n ALCOHOL DETAILS</string>
+    <string name="edit_alcohol_details">EDIT ALCOHOL DETAILS</string>
+    <string name="delete_alcohol_details">DELETE ALCOHOL DETAILS</string>
+
+
+    <string name="feel_stress">Feel Stressed?</string>
+    <string name="feeling_stress">Feeling Stress</string>
+    <string name="breathe">BREATHE</string>
+    <string name="how_stress">How stressed are you?</string>
+    <string name="please_press">Please press the button below.</string>
+    <string name="to_help_you">To help you to reduce your stress,\n we have breathing exercise.</string>
+    <string name="breathing_exercise">BREATHING EXERCISE</string>
+    <string name="take_a_breath">Taking a breath slowly can help \n relieve your stress.</string>
+    <string name="seconds">00 seconds</string>
+    <string name="sets">00 sets</string>
+    <string name="total">TOTAL</string>
+    <string name="inhale">INHALE</string>
+    <string name="exhale">EXHALE</string>
+    <string name="TOTAL">total</string>
+    <string name="inhale_exhale">Inhale...Exhale...</string>
+    <string name="inhale_txt">Inhale...</string>
+    <string name="exhale_txt">Exhale...</string>
+    <string name="start">START</string>
+    <string name="weight_txt">Weight</string>
+    <string name="bp">BP</string>
+    <string name="date">Date</string>
+    <string name="edit_or_delete_vitals">edit/delete my vitals</string>
+    <string name="edit_vitals">edit my vitals</string>
+    <string name="delete_vitals">delete my vitals</string>
+    <string name="edit_or_delete_lab">edit/delete my lab</string>
+    <string name="edit_my_lab">edit my lab</string>
+    <string name="delete_my_lab">delete my lab</string>
+    <string name="time">Time</string>
+    <string name="dose_unit">Dose, Unit</string>
+    <string name="fruits_or_vegetables_details">fruits/\nvegetables details</string>
+
+    <string name="servings_txt1">One serving is what you can hold in \nyour cupped hand.</string>
+    <string name="servings_txt2">You should take minimum 5 servings \ndaily.</string>
+    <string name="smoking_details">smoking details</string>
+    <string name="smoking_txt">Smoking causes heart attack and cancer.\nYou should try to stop smoking \ncompletely and not restart it. If you are \nunable to stop, your doctor will be able \nto help you.</string>
+    <string name="no_of_cigarettes2">No.of cigarettes/\nbeedi per day</string>
+    <string name="alcohol_details">alcohol details</string>
+    <string name="alcohol_txt">You should avoid taking any alcohol as \nyou have heart disease. If you are unable \nto stop, you should limit to less than 7 \nunits over one week.</string>
+    <string name="total_unit">Total Unit</string>
+    <string name="others_name">Others Name</string>
+    <string name="alerts">alerts</string>
+    <string name="messages">messages</string>
+    <string name="steps">steps</string>
+    <string name="no_of_steps">No.of steps</string>
+    <string name="sleep">sleep</string>
+    <string name="hrs_of_sleep">Hours of sleep</string>
+    <string name="add_sleep">add sleep</string>
+    <string name="start_sleep">When did you sleep?</string>
+    <string name="wokeup">When did you wake up?</string>
+    <string name="total_duration">Total duration</string>
+    <string name="medicine_reminder">medicine reminder</string>
+    <string name="stop_alarm">stop alarm</string>
+    <string name="tap_shoe">Tap the shoe icon 🥾 to refresh the number of steps.</string>
+
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="input_error_hospNo">hospital number required</string>
+    <string name="input_error_dob">date of birth required</string>
+    <string name="input_error_gender">gender required</string>
+    <string name="input_error_nameLetters">name can be alphabets only</string>
+    <string name="input_error_address">address required</string>
+    <string name="input_error_occupation">occupation required</string>
+    <string name="input_error_education">education required</string>
+    <string name="input_error_income">income required</string>
+    <string name="input_error_income_length">enter a valid income</string>
+    <string name="input_error_password_match">re-enter password</string>
+    <string name="not_verified">Not verified!</string>
+    <string name="verify_email">⚠️ Please verify your email !!!</string>
+    <string name="input_error_uname">username required</string>
+    <string name="mild">Mild</string>
+    <string name="severe">Severe</string>
+    <string name="weightError">Abnormal Weight</string>
+    <string name="heightError">Abnormal Height</string>
+    <string name="smokeError">Abnormal Value</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

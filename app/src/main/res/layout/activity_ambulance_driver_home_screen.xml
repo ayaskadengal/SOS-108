@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="32dp"
+        android:paddingTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textViewDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#616161"
+            android:textSize="14sp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Patient ID -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient ID"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/editTextPatientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="108_NAS_0045"
+            android:enabled="false"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <!-- Mobile Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/editTextMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:background="@android:drawable/edit_text"
+            android:drawableEnd="@android:drawable/ic_menu_call"
+
+            android:textColor="#000000"
+            android:padding="12dp" />
+
+        <!-- Location -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location URL"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="https://maps.app.goo.gl/..."
+            android:background="@android:drawable/edit_text"
+            android:textColor="#000000"
+            android:padding="12dp" />
+        <Button
+            android:id="@+id/buttonOpenMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌐 Open in Google Maps"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1976D2"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:padding="14dp"
+            android:elevation="2dp" />
+
+        <!-- Arrived Button -->
+        <Button
+            android:id="@+id/buttonArrived"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Arrived at Incident Spot"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="32dp"
+            android:padding="14dp"
+            android:elevation="2dp" />
+    </LinearLayout>
+</ScrollView>

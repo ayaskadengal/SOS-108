@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_red"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/jipmer_logo"
+                    app:layout_constraintBottom_toBottomOf="@id/constraintLayout2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/splash_screen_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.117"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.504" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="414dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/normal_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/create_account_reg"
+
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/full_name_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/full_name" />
+
+                <EditText
+                    android:id="@+id/full_name_et"
+                    style="@style/normal_edit_txt"
+                    android:layout_gravity="center"
+
+
+                    android:gravity="center"
+                    android:hint="@string/full_name"
+                    android:inputType="textPersonName" />
+
+
+                <TextView
+                    android:id="@+id/gender_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Category" />
+
+
+                <Spinner
+                    android:id="@+id/gender_select"
+                    style="@style/normal_edit_txt"
+
+                    android:layout_gravity="center"
+
+
+
+
+
+
+                    android:textAlignment="center"
+
+
+                    android:gravity="center"
+
+                    />
+
+
+                <!--                    android:layout_width="270dp"-->
+                <!--                    android:layout_height="52dp"-->
+                <!--                    android:layout_gravity="center"-->
+
+
+
+                <!--                    android:background="@color/white"-->
+                <!--                    android:backgroundTint="@color/white"-->
+                <!--                    android:textAlignment="center"-->
+
+                <!--                    />-->
+
+                <RadioGroup
+                    android:id="@+id/are_you_health_Care_radio"
+                    android:layout_width="200dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    android:layout_marginHorizontal="85dp"
+
+
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.442"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.699"/>
+                <!--
+                <LinearLayout
+                    android:id="@+id/smoke_visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    > -->
+
+
+                <Spinner
+                    android:id="@+id/health_care_sp"
+
+                    android:layout_width="220dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="120dp"
+                    android:visibility="gone"
+
+
+
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+
+                    android:textAlignment="center"
+
+                    />
+
+                <TextView
+                    android:id="@+id/mobile_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/mobile_number" />
+
+                <EditText
+                    android:id="@+id/mobile_et"
+                    style="@style/normal_edit_txt"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:maxLength="10"
+
+
+                    android:hint="@string/mobile_number"
+                    android:inputType="phone" />
+
+
+                <TextView
+                    android:id="@+id/emergency_contact_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Emergency contact Number 2" />
+
+                <EditText
+                    android:id="@+id/emergency_contact_et"
+                    style="@style/normal_edit_txt"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Emergency contact Number 2"
+
+
+                    android:inputType="phone"
+                    android:maxLength="10" />
+
+
+                <TextView
+                    android:id="@+id/user_name_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/user_name_txt" />
+
+                <EditText
+                    android:id="@+id/user_name_email"
+                    style="@style/normal_edit_txt"
+                    android:layout_gravity="center"
+
+
+                    android:gravity="center"
+                    android:hint="@string/user_email"
+                    />
+
+                <TextView
+                    android:id="@+id/password_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/password" />
+
+                <EditText
+                    android:id="@+id/password_et"
+                    style="@style/normal_edit_txt"
+
+                    android:layout_gravity="center"
+
+
+                    android:gravity="center"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"/>
+
+
+                <TextView
+                    android:id="@+id/confirm_password_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/confirm_pass" />
+
+                <EditText
+                    android:id="@+id/confirm_password_et"
+                    style="@style/normal_edit_txt"
+
+                    android:layout_gravity="center"
+
+
+                    android:gravity="center"
+                    android:hint="@string/confirm_pass"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/create_ac_bt"
+                    style="@style/normal_bt"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="@string/create_account_reg"
+                    app:cornerRadius="110dp" />
+
+                <TextView
+                    android:id="@+id/already_have_tv"
+                    style="@style/normal_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/already_ac" />
+
+                <TextView
+                    android:id="@+id/login_tv"
+                    style="@style/forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="login"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/login_small" />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:visibility="gone" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
